@@ -175,3 +175,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3919acaa109704b7dba2b5940b004ed5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  key: "\uB3CC"
+  amount: 1

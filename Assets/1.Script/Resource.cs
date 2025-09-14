@@ -1,7 +1,10 @@
 using UnityEngine;
 
-public class Rock : MonoBehaviour
+public class Resource : MonoBehaviour
 {
+    public string key = "나무";
+    public int amount = 1;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -12,12 +15,5 @@ public class Rock : MonoBehaviour
     void Update()
     {
         
-    }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.tag == "Player")
-        {
-            Destroy(gameObject);
-        }
     }
 }

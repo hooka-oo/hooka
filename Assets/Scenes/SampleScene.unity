@@ -476,7 +476,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77d22cdb983dc452499009313fc0dcd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 10.09
+  inventory: []
+  key: 
+  count: 0
 --- !u!61 &2087699970
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -618,6 +621,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  inventory: []
+  key: 
+  count: 0
 --- !u!1001 &1938919490919157671
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -669,6 +675,10 @@ PrefabInstance:
     - target: {fileID: 6824053317926885438, guid: 2d3ef550d15c64520979c41a5b4ef994, type: 3}
       propertyPath: m_Name
       value: Tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 6824053317926885438, guid: 2d3ef550d15c64520979c41a5b4ef994, type: 3}
+      propertyPath: m_TagString
+      value: Resource
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -726,6 +736,10 @@ PrefabInstance:
     - target: {fileID: 4950127142459237447, guid: fb460135f8b8948ce8eb11bd21bb9dd4, type: 3}
       propertyPath: m_Name
       value: Rock
+      objectReference: {fileID: 0}
+    - target: {fileID: 4950127142459237447, guid: fb460135f8b8948ce8eb11bd21bb9dd4, type: 3}
+      propertyPath: m_TagString
+      value: Resource
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
