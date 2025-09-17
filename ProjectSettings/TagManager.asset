@@ -7,6 +7,7 @@ TagManager:
   - Tree
   - Rock
   - Resource
+  - Collection
   layers:
   - Default
   - TransparentFX
