@@ -8,6 +8,7 @@ TagManager:
   - Rock
   - Resource
   - Collection
+  - Item
   layers:
   - Default
   - TransparentFX

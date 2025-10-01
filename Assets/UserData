@@ -1,0 +1,15 @@
+{
+    "coin": 130,
+    "nickname": "닉네임",
+    "playTime": 37.233375549316409,
+    "userItems": [
+        {
+            "key": "Wood",
+            "count": 10
+        },
+        {
+            "key": "Wood",
+            "count": 10
+        }
+    ]
+}
